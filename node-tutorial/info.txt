@@ -1,0 +1,36 @@
+GLOBALS  _ NO WINDOW !!!!!!
+
+_dirname  : path to current directory
+
+_filename : fole name 
+
+require : function to use modules (commonjs)
+
+module : info about current module (file)
+
+process : info about envirement  where the program is being excuted 
+
+
+
+commonjs , every file is module by default 
+
+modules : encapsulated code (only share minimum)
+
+
+
+ila derna nichan | require('hna l path ') result = ga3 les functions li kaynin fdik l file li derna liha require ghadi y executaw 
+
+
+diffence between async fs and sync fs : sync => l execution dl code kaynmchi ligne by ligne   async => la
+
+Asynchronous functions are generally preferred over synchronous functions as they do not block the execution of the program whereas synchronous functions block the execution of the program until it has finished processing. Some of the asynchronous methods of fs module in NodeJS are:
+
+fs.readFile()
+fs.rename()
+fs.write()
+fs.writeFile()
+fs.fsync()
+fs.appendFile()
+fs.stat()
+fs.readdir()
+fs.exists()

@@ -1,0 +1,3 @@
+writed by writeFile 
+
+ added by appendFile 
